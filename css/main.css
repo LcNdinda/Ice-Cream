@@ -108,3 +108,7 @@ nav li a{
     background-color:#CD853F;
     color: black;
 }
+.img-fluid{
+  width: 120%;
+  height: 100%;
+}
