@@ -1,22 +1,55 @@
 .jumbotron{
   font-weight: bold;
-  background-image: url(../img/jumbo.jpeg);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   text-align: center;
   color: #2C3E50;
-  font-size: 80px;
+  background-image: url(../img/last1.jpeg);
+
 }
 .sp1{
-  color:  #E74C3C;
+  color:  ##1C2833;
+}
+.head{
+  color: #5499C7;
 }
 .sp2{
-  color: #5499C7;
+  color:  #1C2833;
+}
+
+.sp3{
+  color: #1C2833;
 }
 body{
   background-image: url(../img/ice1.jpeg);
   background-repeat: no-repeat;
   margin: 40px;
 }
-.well{
-  background-color: #FDEDEC;
+
+.head1{
+  display: none;
+}
+.head2{
+  display: none;
+}.head3{
+  display: none;
+}
+#new{
+  background-color:#FFC0CB;
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 5%;
+}
+nav li a{
+  color: black;
+  font-size: 16px;
+}
+
+.panel-heading{
+  text-align: center;
+}
+ul{
+  list-style:none;
+  font-size: 16px;
+}
+ul li:hover{
+  color: #00FA9A;
 }
