@@ -1,0 +1,22 @@
+.jumbotron{
+  font-weight: bold;
+  background-image: url(../img/jumbo.jpeg);
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #2C3E50;
+  font-size: 80px;
+}
+.sp1{
+  color:  #E74C3C;
+}
+.sp2{
+  color: #5499C7;
+}
+body{
+  background-image: url(../img/ice1.jpeg);
+  background-repeat: no-repeat;
+  margin: 40px;
+}
+.well{
+  background-color: #FDEDEC;
+}
