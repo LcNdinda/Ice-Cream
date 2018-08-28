@@ -1,0 +1,27 @@
+.col-md-12{
+  background-image: url('../images/ice2.jpeg');
+  background-color: #cccccc;
+   height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+#head{
+  text-align: center;
+  background-color: #F9E79F;
+  color: black;
+  padding: 1px;
+  opacity: 0.9;
+}
+.navbar-brand{
+  color: black;
+  font-size: 25px;
+}
+nav li a{
+  color: black;
+}
+.fa{
+  font-size: 36px;
+}
