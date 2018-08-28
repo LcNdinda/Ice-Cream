@@ -1,37 +1,36 @@
-body {
+body, .well {
   margin: 0;
-  font-size: 20px;
+  background-color: #caccd4;
 }
-
-.header {
+.modal-content{
+  background-color: rgba(233,234,237, 0.9);
+  color: black;
+}
+.container-fluid {
   background-image: url("../img/3.jpg");
   background-position: 0% 25%;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 30px;
-  padding: 30px;
+  height: 180px;
+}
+#head{
+  font-size: 80px;
+  font-weight: 900;
   text-align: center;
 }
-#navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-#navbar a {
-  float: right;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-}
-.content {
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+.affix + .container-fluid {
+      padding-top: 70px;
+  }
+.col-sm-9 {
   padding: 16px;
+  font-size: 20px
 }
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.sticky + .content {
-  padding-top: 60px;
+.tablinks{
+  float: right;
 }
