@@ -1,0 +1,68 @@
+.jumbotron {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+  color: #335EFF;
+  text-align: center;
+  font-size: 30px;
+  background-size: cover;
+
+}
+
+.panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 35px;
+  color: Green;
+}
+
+h2 {
+  font-size: 47;
+  font color: black;
+}
+
+.well {
+  min-height: 70px;
+  padding: 14px;
+  margin-bottom: 45px;
+  background-color: #EFEFEF;
+  border: 1px solid #e3e3e3;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+body {
+  background-color: #33FFFF;
+  background-size: cover;
+}
+
+h1 {
+  font color: black;
+  background color: Yellow;
+  font-style: normal;
+  font-weight: bolder;
+}
+ol {
+  font-weight: normal;
+  font-size:35px;
+
+}
+
+h5 {
+  font-size: 40px;
+}
+.old{
+  display: none;
+}
+
+.cream{
+  display: none;
+}
+.youghurt{
+  display: none;
+}
+
+.skynest{
+  display: none;
+}
