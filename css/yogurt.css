@@ -1,9 +1,20 @@
-body, .well {
+body{
   margin: 0;
   background-color: #caccd4;
+  position: relative;
+}
+.well{
+  background-color: rgba(233,234,237, 0.4);
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.nav, .navbar, .dropdown, .dropdown-menu{
+  background-color: rgba(233,234,237);
+  color: black;
+  font-size: 15px;
 }
 .modal-content{
-  background-color: rgba(233,234,237, 0.9);
+  background-color: rgba(233,234,237);
   color: black;
   font-size: 15px;
 }
@@ -13,6 +24,12 @@ body, .well {
   background-size: cover;
   background-repeat: no-repeat;
   height: 180px;
+  color: #A2ACB4;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.container{
+  font-size: 20px;
 }
 #head{
   font-size: 80px;
@@ -31,7 +48,4 @@ body, .well {
 .col-sm-9 {
   padding: 16px;
   font-size: 20px
-}
-.tablinks{
-  float: right;
 }
