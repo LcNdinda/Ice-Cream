@@ -1,0 +1,36 @@
+body, .well {
+  margin: 0;
+  background-color: #caccd4;
+}
+.modal-content{
+  background-color: rgba(233,234,237, 0.9);
+  color: black;
+}
+.container-fluid {
+  background-image: url("../img/3.jpg");
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 180px;
+}
+#head{
+  font-size: 80px;
+  font-weight: 900;
+  text-align: center;
+}
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+.affix + .container-fluid {
+      padding-top: 70px;
+  }
+.col-sm-9 {
+  padding: 16px;
+  font-size: 20px
+}
+.tablinks{
+  float: right;
+}
