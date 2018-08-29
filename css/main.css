@@ -18,6 +18,9 @@
 .navbar-brand{
   color: black;
   font-size: 25px;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
 }
 nav li a{
   color: black;
@@ -122,7 +125,7 @@ nav li a{
 }
 
 #events {
-  background-image: url('../images/back4.jpeg');
+  background-image: url('../images/back3.jpeg');
   background-color: #cccccc;
   height: 650px;
   background-repeat: no-repeat;
@@ -150,33 +153,12 @@ nav li a{
   color: #00ced1;
   font-size: 28px;
 }
-#places{
- padding: 2%;
-
-}
-#places h1{
-  text-align: center;
-  color: #D2691E;
-
-}
-.places li{
-   list-style: none;
-}
- .places li a{
-   line-height: 45px;
-   font-size: 23px;
-   text-decoration: none;
-   color: #800000;
-   cursor: pointer;
- }
-
-.places li a:hover{
-  color: #DEB887;
-  text-decoration: underline;
+.thumbnail {
+  padding: 1%;
 }
 #footer{
   background-color: #F9E79F;
-  padding: 4%;
+  padding: 3%;
   font-family: serif;
 }
 footer h3{
