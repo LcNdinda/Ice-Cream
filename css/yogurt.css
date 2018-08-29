@@ -45,7 +45,3 @@ body{
 .affix + .container-fluid {
       padding-top: 70px;
   }
-.col-sm-9 {
-  padding: 16px;
-  font-size: 20px
-}
