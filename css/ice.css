@@ -1,0 +1,75 @@
+.container-fluid {
+  background-color: #33FFF0;
+  background-size: cover;
+  text-align: center;
+}
+.wewe{
+  font-size: 90px;
+  font-weight: bold;
+}
+
+.panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 35px;
+  color: Green;
+}
+
+h2 {
+  font-size: 47;
+  font color: black;
+}
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+.affix + .container-fluid {
+      padding-top: 70px;
+  }
+
+body {
+  margin: 0;
+  font-size: 20px;
+
+}
+
+h1 {
+  font color: black;
+  background color: Yellow;
+  font-style: normal;
+  font-weight: bolder;
+}
+ol {
+  font-weight: normal;
+  font-size:35px;
+  font color: Green;
+
+}
+
+h5 {
+  font-size: 40px;
+}
+.old{
+  display: none;
+}
+
+.cream{
+  display: none;
+}
+.youghurt{
+  display: none;
+}
+.navbar {
+  background-color:rgba(233, 234, 237, 0.5);
+  font-style: normal;
+}
+
+.container {
+  background-image: url("../images/Ice6.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
