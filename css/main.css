@@ -1,7 +1,10 @@
+.container-fluid{
+  width: 100%;
+}
 #main{
   background-image: url('../images/pic1.jpeg');
   background-color: #cccccc;
-   height: 650px;
+  height: 650px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,6 +18,10 @@
   padding: 1px;
   opacity: 0.9;
 }
+#head h4{
+  font-size: 35px;
+  font-family:serif;
+}
 .navbar-brand{
   color: black;
   font-size: 25px;
@@ -25,21 +32,27 @@
 nav li a{
   color: black;
 }
+nav li a:hover{
+  background-color: #F9E79F;
+}
 .fa{
   font-size: 36px;
 }
 #image1{
-  width: 110%;
-  height: 250%;
+  width: 100%;
+  height: 100%;
 }
 .text{
-  text-align: center;
+text-align: center;
 }
 .text h3{
   font-family: sans-serif;
-  color: #FF8A80;
+  color: #800000;
   font-weight: bolder;
   font-size: 29px;
+}
+.text p{
+  font-size: 15px;
 }
 .button {
     background-color: #4CAF50; /* Green */
@@ -59,11 +72,11 @@ nav li a{
 .btn-yellow {
     background-color: white;
     color: black;
-    border: 2px solid  #F9E79F;
+    border: 2px solid  #800000;
 }
 
 .btn-yellow:hover {
-    background-color:#F9E79F;
+    background-color:#800000;
     color: black;
 }
 
@@ -88,6 +101,7 @@ nav li a{
 #section3{
   text-align: center;
   color: white;
+
 }
 #section3 h5{
   font-size: 35px;
@@ -112,7 +126,7 @@ nav li a{
     color: black;
 }
 .img-fluid{
-  width: 120%;
+  width: 107%;
   height: 100%;
 }
 .section4{
@@ -125,29 +139,33 @@ nav li a{
 }
 
 #events {
-  background-image: url('../images/back3.jpeg');
+  background-image: url('../images/pic2.jpeg');
   background-color: #cccccc;
   height: 650px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
- text-align: center;
- padding: 10%;
+  text-align: center;
+  padding: 10%;
+  color: white;
+
+
 }
 
 #events h2{
-  color: #00ced1;
-  font-weight: bolder;
-  font-size: 45px;
+  font-size: 50px;
+  word-spacing: 10px;
+  letter-spacing: 12px;
+  font-weight: bolder
 }
 .btn-events{
   background-color: white;
   color: black;
-  border: 2px solid  	#00ced1;
+  border: 2px solid  #CD853F;
 }
 .btn-events:hover {
-    background-color:#00ced1;
-    color: black;
+  background-color:#CD853F;
+  color: black;
 }
 #events p{
   color: #00ced1;
