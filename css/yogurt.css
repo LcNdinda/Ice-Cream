@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  background-color: #caccd4;
+  background-color: #f9f9f9;
   position: relative;
 }
 .well{
@@ -44,4 +44,58 @@ body{
 
 .affix + .container-fluid {
       padding-top: 70px;
+  }
+  .button {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+  }
+
+  .btn-yellow {
+      background-color: white;
+      color: black;
+      border: 2px solid  #F9E79F;
+  }
+
+  .btn-yellow:hover {
+      background-color:#F9E79F;
+      color: black;
+  }
+
+  .btn-pink {
+      background-color: white;
+      color: black;
+      border: 2px solid  #FFB6C1	;
+  }
+
+  .btn-pink:hover {
+      background-color:#FFB6C1;
+      color: black;
+  }
+  .gallery{
+    text-align: center;
+    font-weight: bold;
+  }
+  .gallery h3 {
+    font-weight: bolder;
+  }
+  footer h3{
+    font-weight: bold;
+  }
+  footer p{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .footer-icon a i{
+    padding: 3px;
   }
