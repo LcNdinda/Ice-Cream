@@ -10,127 +10,1147 @@
     <script src="js/cream.js"></script>
     <title> Ice Cream</title>
   </head>
-  <body>
-     <div class="container">
-       <div class="jumbotron">
-         <h1>Ice Cream</h1>
+  <body  data-spy="scroll" data-target=".navbar" data-offset="50">
+
+      <div class="container-fluid">
+         <h1> <span id="title">Ice Cream</span></h1>
+      </div>
+       <nav class="navbar navbar-default"  data-spy="affix" data-offset-top="180">
+        <ul class="nav navbar-nav">
+         <li class="active"><a href="index.html">Home</a></li>
+         <li><a href="cream.html">Ice Cream</a></li>
+         <li><a href="ice.html">Ice Pops</a></li>
+         <li><a href="yogurt.html">Frozen Youghurt</a></li>
+           <li class="dropdown">
+            <a class="dropdown-toggle"  data-toggle="dropdown" href="">About<span class="caret"></span></button>
+            <ul class="dropdown-menu">
+            <li><a href="#hisrory" data-toggle="modal" data-target="#history">History </a></li>
+            <li><a href="#recipe" data-toggle="modal" data-target="#history">Recipe </a></li>
+            </ul>
+         </li>
+        </ul>
+      </nav>
+
+<div class="container">
+      <div id="history" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title">History of Ice Cream</h3>
+          </div>
+          <div class="modal-body">
+            <h4><span class ="head">The Evolution of Ice Cream</span> </h4> <br>
+            <p>  Ice cream's origins are known to reach back as far as the second century B.C.,
+              although no specific date of origin nor inventor has been undisputably credited with its discovery.
+               We know that Alexander the Great enjoyed snow and ice flavored with honey and nectar.
+               Biblical references also show that King Solomon was fond of iced drinks during harvesting.
+                During the Roman Empire, Nero Claudius Caesar (A.D. 54-86) frequently sent runners into the mountains for snow,
+                which was then flavored with fruits and juices.</p>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+        </div>
        </div>
-
-       <div class="new">
-         <nav class="nav">
-          <div class="container-fluid">
-          <ul class="nav navbar-nav">
-           <li class="active"><a href="#">Home</a></li>
-           <li><a href="">Ice Cream</a></li>
-           <li><a href="">Ice Pops</a></li>
-           <li><a href="">Frozen Youghurt</a></li>
-          </ul>
-         </div>
-        </nav>
-       </div>
-
-
-      <div class="col-md-4">
-        <div class="well" id="new">
-          <p><h3><span class ="sp1">Definition of Ice Cream </span> </h3></p>
-          <div class="head1">
-            <p> <h4><span class ="head">Ice Cream </span> </h4></p>
-            Ice cream is a very cold sweet food which is made from frozen cream
-            or a substance like cream and has a flavour such as vanilla, chocolate, or strawberry.
-          </div>
-        </div>
       </div>
+    </div>
 
 
-      <div class="col-md-4">
-        <div class="well" id="new">
-          <p><h3><span class ="sp2">History of Ice Cream </span> </h3></p>
-          <div class="head2">
-            <p> <h4><span class ="head">The Evolution of Ice Cream</span> </h4></p>
-            Ice cream's origins are known to reach back as far as the second century B.C.,
-            although no specific date of origin nor inventor has been undisputably credited with its discovery.
-             We know that Alexander the Great enjoyed snow and ice flavored with honey and nectar.
-             Biblical references also show that King Solomon was fond of iced drinks during harvesting.
-              During the Roman Empire, Nero Claudius Caesar (A.D. 54-86) frequently sent runners into the mountains for snow,
-              which was then flavored with fruits and juices.
-          </div>
+    <div id="recipe" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title">The Recipe for vanilla Ice cream</h3>
         </div>
+        <div class="modal-body">
+          <h4><span class ="head">The Recipe for vanilla Ice cream </span> </h4><br>
+          <ol>
+            <li>  Stir sugar, cream, and milk into a saucepan over low heat until sugar has dissolved.
+                   Heat just until mix is hot and a small ring of foam appears around the edge.</li>
+            <li>Transfer cream mixture to a pourable container such as a large measuring cup.
+              Stir in vanilla extract and chill mix thoroughly,
+               at least 2 hours. (Overnight is best.)</li>
+            <li>Pour cold ice cream mix into an ice cream maker, turn on the machine,
+               and churn according to manufacturer's directions, 20 to 25 minutes.</li>
+            <li>When ice cream is softly frozen, serve immediately or place a piece of plastic
+               wrap directly on the ice cream and place in freezer to ripen, 2 to 3 hours.</li>
+          </ol>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
-
-      <div class="col-md-4">
-        <div class="well" id="new">
-          <p><h3><span class ="sp3">Recipe for Ice Cream</span></h3></p>
-          <div class="head3">
-            <p> <h4> <span class ="head">TheRecipe for vanilla Ice cream </span></h4></p>
-            <ol>
-              <li>  Stir sugar, cream, and milk into a saucepan over low heat until sugar has dissolved.
-                     Heat just until mix is hot and a small ring of foam appears around the edge.</li>
-              <li>Transfer cream mixture to a pourable container such as a large measuring cup.
-                Stir in vanilla extract and chill mix thoroughly,
-                 at least 2 hours. (Overnight is best.)</li>
-              <li>Pour cold ice cream mix into an ice cream maker, turn on the machine,
-                 and churn according to manufacturer's directions, 20 to 25 minutes.</li>
-              <li>When ice cream is softly frozen, serve immediately or place a piece of plastic
-                 wrap directly on the ice cream and place in freezer to ripen, 2 to 3 hours.</li>
-            </ol>
-          </div>
-        </div>
       </div>
-
-      <div class="panel-heading">
-        <h3> <span class="flavor"> Here are some Fantastic Flovars </span> </h3>
-        <div class="row">
-          <div class="col-md-3">
-            <ul>
-              <li>Amaretto</li>
-              <li>Cotton Candy</li>
-              <li>Chocolate Layer Cake</li>
-              <li>Mint</li>
-              <li>Red Velvet Cake</li>
-              <li>Cake Batter</li>
-              <li>Sweet Cream</li>
-            </ul>
-          </div>
-
-          <div class="col-md-3">
-            <ul>
-              <li>Baileys</li>
-              <li>Cheesecake</li>
-              <li>Chocolate Peanut Butter</li>
-              <li>French Vanilla</li>
-              <li>Orange Dreamsicle</li>
-              <li>Strawberry</li>
-              <li>White Chocolate</li>
-            </ul>
-          </div>
-
-          <div class="col-md-3">
-            <ul>
-              <li>Banana</li>
-              <li>Chocolate</li>
-              <li>Coconut</li>
-              <li>Macademia</li>
-              <li>Pistachio</li>
-              <li>Strawberry Cheesecake</li>
-              <li>White Peppermint</li>
-            </ul>
-          </div>
-
-          <div class="col-md-3">
-            <ul>
-              <li>Raspberry</li>
-              <li>Coffee</li>
-              <li>Blueberry Pomegranate</li>
-              <li>Chocolate Hazelnut</li>
-              <li>Mango</li>
-              <li>Strawberry Mango Banana</li>
-            </ul>
-          </div>
-
-
-        </div>
-      </div>
-
      </div>
+    </div>
+  </div>
+
+  <div class="section2">
+  <div class="row">
+    <div class="col-md-2">
+
+    </div>
+    <div class="col-md-4">
+      <img src="img/coldstone.png" alt="Ice Cream" id="image1">
+    </div>
+    <div class="col-md-6">
+      <div class="text">
+        <h3>Fresh and Tasty</h3>
+        <br>
+         <p>Now just the thought of eating ice cream puts pounds on me.</p>
+         <p>A day without ice cream was a day wasted.</p>
+         <button type="button" class=" button btn-yellow" id="fla1"><a href="#flavor" data-toggle="modal" data-target="#flavor">FLAVORS</button></a>
+
+           <div id="flavor" class="modal fade" role="dialog">
+             <div class="modal-dialog">
+
+             <div class="modal-content">
+               <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 <h3 class="modal-title" class="flavor">Here are some Fantastic Flovars</h3>
+               </div>
+               <div class="modal-body">
+                 <div class="row">
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Amaretto</li>
+                       <li>Cotton Candy</li>
+                       <li>Chocolate Layer Cake</li>
+                       <li>Mint</li>
+                       <li>Red Velvet Cake</li>
+                       <li>Cake Batter</li>
+                       <li>Sweet Cream</li>
+                     </ul>
+                   </div>
+
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Baileys</li>
+                       <li>Cheesecake</li>
+                       <li>Chocolate Peanut Butter</li>
+                       <li>French Vanilla</li>
+                       <li>Orange Dreamsicle</li>
+                       <li>Strawberry</li>
+                       <li>White Chocolate</li>
+                     </ul>
+                   </div>
+
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Banana</li>
+                       <li>Chocolate</li>
+                       <li>Coconut</li>
+                       <li>Macademia</li>
+                       <li>Pistachio</li>
+                       <li>Strawberry Cheesecake</li>
+                       <li>White Peppermint</li>
+                     </ul>
+                   </div>
+
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Raspberry</li>
+                       <li>Coffee</li>
+                       <li>Blueberry Pomegranate</li>
+                       <li>Chocolate Hazelnut</li>
+                       <li>Mango</li>
+                       <li>Strawberry Mango Banana</li>
+                     </ul>
+                   </div>
+                 </div>
+
+             <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+             </div>
+             </div>
+            </div>
+           </div>
+         </div>
+
+         <button type="button" class=" button btn-pink" id="top1"><a href="#toppings" data-toggle="modal" data-target="#toppings">TOPPINGS</button></a>
+         <div id="toppings" class="modal fade" role="dialog">
+           <div class="modal-dialog">
+
+           <div class="modal-content">
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h3 class="modal-title" class="toppings">Here are some Fantastic Toppings</h3>
+             </div>
+             <div class="modal-body"> <div class="row">
+
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Apple Pie Filling</li>
+                    <li>Bananas</li>
+                    <li>Blueberries</li>
+                    <li>Brownies</li>
+                    <li>Caramel Topping</li>
+                    <li>Cherry Pie Filling</li>
+                    <li>Chocolate Chip Cookie Dough</li>
+                    <li>Whipped Topping (Rich’s On Top®)</li>
+                    <li>White Chocolate Chips</li>
+                    <li>Yellow Cake (Rich’s®)</li>
+
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Chocolate Chips</li>
+                    <li>Cinnamon</li>
+                    <li>Coconut</li>
+                    <li>Fudge Topping</li>
+                    <li>Graham Cracker Pie Crust</li>
+                    <li>Gummy Bears</li>
+                    <li>Heath® Bar</li>
+                    <li>Roasted Almonds</li>
+                    <li>Strawberries</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Kit Kat®</li>
+                    <li>M&M’s®</li>
+                    <li>OREO® Cookies</li>
+                    <li>Peanut Butter</li>
+                    <li>Pecans</li>
+                    <li>Pineapple Tidbits</li>
+                    <li>Rainbow Sprinkles</li>
+                    <li>Raspberries</li>
+                    <li>Reese’s® Peanut Butter Cups®</li>
+                  </ul>
+                </div>
+              </div>
+
+           <div class="modal-footer">
+             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+           </div>
+           </div>
+          </div>
+         </div>
+       </div>
+       <button type="button" class=" button btn-blue" id="findthem1"><a href="#findthem" data-toggle="modal" data-target="#findthem">FIND THEM</button></a>
+       <div id="findthem" class="modal fade" role="dialog">
+         <div class="modal-dialog">
+
+         <div class="modal-content">
+           <div class="modal-header">
+             <button type="button" class="close" data-dismiss="modal">&times;</button>
+             <h3 class="modal-title" class="findthem">Here are some Fantastic Toppings</h3>
+           </div>
+           <div class="modal-body">
+             <div class="row">
+              <div class="col-md-3">
+                <ul>
+                  <li>Amaretto</li>
+                  <li>Cotton Candy</li>
+                  <li>Chocolate Layer Cake</li>
+                  <li>Mint</li>
+                  <li>Red Velvet Cake</li>
+                  <li>Cake Batter</li>
+                  <li>Sweet Cream</li>
+                </ul>
+              </div>
+
+              <div class="col-md-3">
+                <ul>
+                  <li>Baileys</li>
+                  <li>Cheesecake</li>
+                  <li>Chocolate Peanut Butter</li>
+                  <li>French Vanilla</li>
+                  <li>Orange Dreamsicle</li>
+                  <li>Strawberry</li>
+                  <li>White Chocolate</li>
+                </ul>
+              </div>
+
+              <div class="col-md-3">
+                <ul>
+                  <li>Banana</li>
+                  <li>Chocolate</li>
+                  <li>Coconut</li>
+                  <li>Macademia</li>
+                  <li>Pistachio</li>
+                  <li>Strawberry Cheesecake</li>
+                  <li>White Peppermint</li>
+                </ul>
+              </div>
+
+              <div class="col-md-3">
+                <ul>
+                  <li>Raspberry</li>
+                  <li>Coffee</li>
+                  <li>Blueberry Pomegranate</li>
+                  <li>Chocolate Hazelnut</li>
+                  <li>Mango</li>
+                  <li>Strawberry Mango Banana</li>
+                </ul>
+              </div>
+            </div>
+
+
+
+         <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+         </div>
+         </div>
+        </div>
+       </div>
+     </div>
+
+      </div>
+    </div>
+
+  </div>
+  <br><br><br>
+
+  <div class="row">
+    <div class="col-md-2">
+
+    </div>
+    <div class="col-md-4">
+      <img src="img/bigsquare.png" alt="Ice Cream" id="image1">
+    </div>
+    <div class="col-md-4">
+      <div class="text">
+        <h3>Fresh and Tasty</h3>
+        <br>
+         <p>Now just the thought of eating ice cream puts pounds on me.</p>
+         <p>A day without ice cream was a day wasted.</p>
+         <button type="button" class=" button btn-yellow" id="fla1"><a href="#flavor" data-toggle="modal" data-target="#flavor">FLAVORS</button></a>
+
+           <div id="flavor" class="modal fade" role="dialog">
+             <div class="modal-dialog">
+
+             <div class="modal-content">
+               <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 <h3 class="modal-title" class="flavor">Here are some Fantastic Flovars</h3>
+               </div>
+               <div class="modal-body">
+                 <div class="row">
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Amaretto</li>
+                       <li>Cotton Candy</li>
+                       <li>Chocolate Layer Cake</li>
+                       <li>Mint</li>
+                       <li>Red Velvet Cake</li>
+                       <li>Cake Batter</li>
+                       <li>Sweet Cream</li>
+                     </ul>
+                   </div>
+
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Baileys</li>
+                       <li>Cheesecake</li>
+                       <li>Chocolate Peanut Butter</li>
+                       <li>French Vanilla</li>
+                       <li>Orange Dreamsicle</li>
+                       <li>Strawberry</li>
+                       <li>White Chocolate</li>
+                     </ul>
+                   </div>
+
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Banana</li>
+                       <li>Chocolate</li>
+                       <li>Coconut</li>
+                       <li>Macademia</li>
+                       <li>Pistachio</li>
+                       <li>Strawberry Cheesecake</li>
+                       <li>White Peppermint</li>
+                     </ul>
+                   </div>
+
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Raspberry</li>
+                       <li>Coffee</li>
+                       <li>Blueberry Pomegranate</li>
+                       <li>Chocolate Hazelnut</li>
+                       <li>Mango</li>
+                       <li>Strawberry Mango Banana</li>
+                     </ul>
+                   </div>
+                 </div>
+
+             <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+             </div>
+             </div>
+            </div>
+           </div>
+         </div>
+
+         <button type="button" class=" button btn-pink" id="top1"><a href="#toppings" data-toggle="modal" data-target="#toppings">TOPPINGS</button></a>
+         <div id="toppings" class="modal fade" role="dialog">
+           <div class="modal-dialog">
+
+           <div class="modal-content">
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h3 class="modal-title" class="toppings">Here are some Fantastic Toppings</h3>
+             </div>
+             <div class="modal-body"> <div class="row">
+                <div class="col-md-3">
+                  <ul>
+                    <li>Amaretto</li>
+                    <li>Cotton Candy</li>
+                    <li>Chocolate Layer Cake</li>
+                    <li>Mint</li>
+                    <li>Red Velvet Cake</li>
+                    <li>Cake Batter</li>
+                    <li>Sweet Cream</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Baileys</li>
+                    <li>Cheesecake</li>
+                    <li>Chocolate Peanut Butter</li>
+                    <li>French Vanilla</li>
+                    <li>Orange Dreamsicle</li>
+                    <li>Strawberry</li>
+                    <li>White Chocolate</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Banana</li>
+                    <li>Chocolate</li>
+                    <li>Coconut</li>
+                    <li>Macademia</li>
+                    <li>Pistachio</li>
+                    <li>Strawberry Cheesecake</li>
+                    <li>White Peppermint</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Raspberry</li>
+                    <li>Coffee</li>
+                    <li>Blueberry Pomegranate</li>
+                    <li>Chocolate Hazelnut</li>
+                    <li>Mango</li>
+                    <li>Strawberry Mango Banana</li>
+                  </ul>
+                </div>
+              </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+           </div>
+           </div>
+          </div>
+         </div>
+       </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+
+    </div>
+  </div>
+  <br><br><br>
+  <div class="row">
+    <div class="col-md-2">
+
+    </div>
+    <div class="col-md-4">
+      <img src="img/creamyinn.png" alt="Ice Cream" id="image1">
+    </div>
+    <div class="col-md-4">
+      <div class="text">
+        <h3>Fresh and Tasty</h3>
+        <br>
+         <p>Now just the thought of eating ice cream puts pounds on me.</p>
+         <p>A day without ice cream was a day wasted.</p>
+         <button type="button" class=" button btn-yellow" id="fla1"><a href="#flavor" data-toggle="modal" data-target="#flavor">FLAVORS</button></a>
+
+           <div id="flavor" class="modal fade" role="dialog">
+             <div class="modal-dialog">
+
+             <div class="modal-content">
+               <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 <h3 class="modal-title" class="flavor">Here are some Fantastic Flovars</h3>
+               </div>
+               <div class="modal-body">
+                 <div class="row">
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Amaretto</li>
+                       <li>Cotton Candy</li>
+                       <li>Chocolate Layer Cake</li>
+                       <li>Mint</li>
+                       <li>Red Velvet Cake</li>
+                       <li>Cake Batter</li>
+                       <li>Sweet Cream</li>
+                     </ul>
+                   </div>
+
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Baileys</li>
+                       <li>Cheesecake</li>
+                       <li>Chocolate Peanut Butter</li>
+                       <li>French Vanilla</li>
+                       <li>Orange Dreamsicle</li>
+                       <li>Strawberry</li>
+                       <li>White Chocolate</li>
+                     </ul>
+                   </div>
+
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Banana</li>
+                       <li>Chocolate</li>
+                       <li>Coconut</li>
+                       <li>Macademia</li>
+                       <li>Pistachio</li>
+                       <li>Strawberry Cheesecake</li>
+                       <li>White Peppermint</li>
+                     </ul>
+                   </div>
+
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Raspberry</li>
+                       <li>Coffee</li>
+                       <li>Blueberry Pomegranate</li>
+                       <li>Chocolate Hazelnut</li>
+                       <li>Mango</li>
+                       <li>Strawberry Mango Banana</li>
+                     </ul>
+                   </div>
+                 </div>
+
+             <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+             </div>
+             </div>
+            </div>
+           </div>
+         </div>
+
+         <button type="button" class=" button btn-pink" id="top1"><a href="#toppings" data-toggle="modal" data-target="#toppings">TOPPINGS</button></a>
+         <div id="toppings" class="modal fade" role="dialog">
+           <div class="modal-dialog">
+
+           <div class="modal-content">
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h3 class="modal-title" class="toppings">Here are some Fantastic Toppings</h3>
+             </div>
+             <div class="modal-body"> <div class="row">
+                <div class="col-md-3">
+                  <ul>
+                    <li>Amaretto</li>
+                    <li>Cotton Candy</li>
+                    <li>Chocolate Layer Cake</li>
+                    <li>Mint</li>
+                    <li>Red Velvet Cake</li>
+                    <li>Cake Batter</li>
+                    <li>Sweet Cream</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Baileys</li>
+                    <li>Cheesecake</li>
+                    <li>Chocolate Peanut Butter</li>
+                    <li>French Vanilla</li>
+                    <li>Orange Dreamsicle</li>
+                    <li>Strawberry</li>
+                    <li>White Chocolate</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Banana</li>
+                    <li>Chocolate</li>
+                    <li>Coconut</li>
+                    <li>Macademia</li>
+                    <li>Pistachio</li>
+                    <li>Strawberry Cheesecake</li>
+                    <li>White Peppermint</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Raspberry</li>
+                    <li>Coffee</li>
+                    <li>Blueberry Pomegranate</li>
+                    <li>Chocolate Hazelnut</li>
+                    <li>Mango</li>
+                    <li>Strawberry Mango Banana</li>
+                  </ul>
+                </div>
+              </div>
+
+
+
+           <div class="modal-footer">
+             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+           </div>
+           </div>
+          </div>
+         </div>
+       </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+
+    </div>
+  </div>
+  <br><br><br>
+  <div class="row">
+    <div class="col-md-2">
+
+    </div>
+    <div class="col-md-4">
+      <img src="img/mamboitalia.jpeg" alt="Ice Cream" id="image1">
+    </div>
+    <div class="col-md-4">
+      <div class="text">
+        <h3>Mambo italia</h3>
+        <br>
+         <p>Now just the thought of eating ice cream puts pounds on me.</p>
+         <p>A day without ice cream was a day wasted.</p>
+         <button type="button" class=" button btn-yellow" id="fla1"><a href="#flavor" data-toggle="modal" data-target="#flavor">FLAVORS</button></a>
+
+           <div id="flavor" class="modal fade" role="dialog">
+             <div class="modal-dialog">
+
+             <div class="modal-content">
+               <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 <h3 class="modal-title" class="flavor">Here are some Fantastic Flovars</h3>
+               </div>
+               <div class="modal-body">
+                 <div class="row">
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Amaretto</li>
+                       <li>Cotton Candy</li>
+                       <li>Chocolate Layer Cake</li>
+                       <li>Mint</li>
+                       <li>Red Velvet Cake</li>
+                       <li>Cake Batter</li>
+                       <li>Sweet Cream</li>
+                     </ul>
+                   </div>
+
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Baileys</li>
+                       <li>Cheesecake</li>
+                       <li>Chocolate Peanut Butter</li>
+                       <li>French Vanilla</li>
+                       <li>Orange Dreamsicle</li>
+                       <li>Strawberry</li>
+                       <li>White Chocolate</li>
+                     </ul>
+                   </div>
+
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Banana</li>
+                       <li>Chocolate</li>
+                       <li>Coconut</li>
+                       <li>Macademia</li>
+                       <li>Pistachio</li>
+                       <li>Strawberry Cheesecake</li>
+                       <li>White Peppermint</li>
+                     </ul>
+                   </div>
+
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Raspberry</li>
+                       <li>Coffee</li>
+                       <li>Blueberry Pomegranate</li>
+                       <li>Chocolate Hazelnut</li>
+                       <li>Mango</li>
+                       <li>Strawberry Mango Banana</li>
+                     </ul>
+                   </div>
+                 </div>
+
+             <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+             </div>
+             </div>
+            </div>
+           </div>
+         </div>
+
+         <button type="button" class=" button btn-pink" id="top1"><a href="#toppings" data-toggle="modal" data-target="#toppings">TOPPINGS</button></a>
+         <div id="toppings" class="modal fade" role="dialog">
+           <div class="modal-dialog">
+
+           <div class="modal-content">
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h3 class="modal-title" class="toppings">Here are some Fantastic Toppings</h3>
+             </div>
+             <div class="modal-body"> <div class="row">
+                <div class="col-md-3">
+                  <ul>
+                    <li>Amaretto</li>
+                    <li>Cotton Candy</li>
+                    <li>Chocolate Layer Cake</li>
+                    <li>Mint</li>
+                    <li>Red Velvet Cake</li>
+                    <li>Cake Batter</li>
+                    <li>Sweet Cream</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Baileys</li>
+                    <li>Cheesecake</li>
+                    <li>Chocolate Peanut Butter</li>
+                    <li>French Vanilla</li>
+                    <li>Orange Dreamsicle</li>
+                    <li>Strawberry</li>
+                    <li>White Chocolate</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Banana</li>
+                    <li>Chocolate</li>
+                    <li>Coconut</li>
+                    <li>Macademia</li>
+                    <li>Pistachio</li>
+                    <li>Strawberry Cheesecake</li>
+                    <li>White Peppermint</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Raspberry</li>
+                    <li>Coffee</li>
+                    <li>Blueberry Pomegranate</li>
+                    <li>Chocolate Hazelnut</li>
+                    <li>Mango</li>
+                    <li>Strawberry Mango Banana</li>
+                  </ul>
+                </div>
+              </div>
+
+
+
+           <div class="modal-footer">
+             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+           </div>
+           </div>
+          </div>
+         </div>
+       </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+
+    </div>
+  </div>
+  <br><br><br>
+  <div class="row">
+    <div class="col-md-2">
+
+    </div>
+    <div class="col-md-4">
+      <img src="img/planetyoghurt.jpeg" alt="Ice Cream" id="image1">
+    </div>
+    <div class="col-md-4">
+      <div class="text">
+        <h3>planetyoghurt</h3>
+        <br>
+         <p>Now just the thought of eating ice cream puts pounds on me.</p>
+         <p>A day without ice cream was a day wasted.</p>
+         <button type="button" class=" button btn-yellow" id="fla1"><a href="#flavor" data-toggle="modal" data-target="#flavor">FLAVORS</button></a>
+
+           <div id="flavor" class="modal fade" role="dialog">
+             <div class="modal-dialog">
+
+             <div class="modal-content">
+               <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 <h3 class="modal-title" class="flavor">Here are some Fantastic Flovars</h3>
+               </div>
+               <div class="modal-body">
+                 <div class="row">
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Amaretto</li>
+                       <li>Cotton Candy</li>
+                       <li>Chocolate Layer Cake</li>
+                       <li>Mint</li>
+                       <li>Red Velvet Cake</li>
+                       <li>Cake Batter</li>
+                       <li>Sweet Cream</li>
+                     </ul>
+                   </div>
+
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Baileys</li>
+                       <li>Cheesecake</li>
+                       <li>Chocolate Peanut Butter</li>
+                       <li>French Vanilla</li>
+                       <li>Orange Dreamsicle</li>
+                       <li>Strawberry</li>
+                       <li>White Chocolate</li>
+                     </ul>
+                   </div>
+
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Banana</li>
+                       <li>Chocolate</li>
+                       <li>Coconut</li>
+                       <li>Macademia</li>
+                       <li>Pistachio</li>
+                       <li>Strawberry Cheesecake</li>
+                       <li>White Peppermint</li>
+                     </ul>
+                   </div>
+
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Raspberry</li>
+                       <li>Coffee</li>
+                       <li>Blueberry Pomegranate</li>
+                       <li>Chocolate Hazelnut</li>
+                       <li>Mango</li>
+                       <li>Strawberry Mango Banana</li>
+                     </ul>
+                   </div>
+                 </div>
+
+             <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+             </div>
+             </div>
+            </div>
+           </div>
+         </div>
+
+         <button type="button" class=" button btn-pink" id="top1"><a href="#toppings" data-toggle="modal" data-target="#toppings">TOPPINGS</button></a>
+         <div id="toppings" class="modal fade" role="dialog">
+           <div class="modal-dialog">
+
+           <div class="modal-content">
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h3 class="modal-title" class="toppings">Here are some Fantastic Toppings</h3>
+             </div>
+             <div class="modal-body"> <div class="row">
+                <div class="col-md-3">
+                  <ul>
+                    <li>Amaretto</li>
+                    <li>Cotton Candy</li>
+                    <li>Chocolate Layer Cake</li>
+                    <li>Mint</li>
+                    <li>Red Velvet Cake</li>
+                    <li>Cake Batter</li>
+                    <li>Sweet Cream</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Baileys</li>
+                    <li>Cheesecake</li>
+                    <li>Chocolate Peanut Butter</li>
+                    <li>French Vanilla</li>
+                    <li>Orange Dreamsicle</li>
+                    <li>Strawberry</li>
+                    <li>White Chocolate</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Banana</li>
+                    <li>Chocolate</li>
+                    <li>Coconut</li>
+                    <li>Macademia</li>
+                    <li>Pistachio</li>
+                    <li>Strawberry Cheesecake</li>
+                    <li>White Peppermint</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Raspberry</li>
+                    <li>Coffee</li>
+                    <li>Blueberry Pomegranate</li>
+                    <li>Chocolate Hazelnut</li>
+                    <li>Mango</li>
+                    <li>Strawberry Mango Banana</li>
+                  </ul>
+                </div>
+              </div>
+
+
+
+           <div class="modal-footer">
+             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+           </div>
+           </div>
+          </div>
+         </div>
+       </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+
+    </div>
+  </div>
+  <br><br><br>
+  <div class="row">
+    <div class="col-md-2">
+
+    </div>
+    <div class="col-md-4">
+      <img src="img/Pablos at Best Western.jpeg" alt="Ice Cream" id="image1">
+    </div>
+    <div class="col-md-4">
+      <div class="text">
+        <h3>Pablos at Best Western</h3>
+        <br>
+         <p>Now just the thought of eating ice cream puts pounds on me.</p>
+         <p>A day without ice cream was a day wasted.</p>
+         <button type="button" class=" button btn-yellow" id="fla1"><a href="#flavor" data-toggle="modal" data-target="#flavor">FLAVORS</button></a>
+
+           <div id="flavor" class="modal fade" role="dialog">
+             <div class="modal-dialog">
+
+             <div class="modal-content">
+               <div class="modal-header">
+                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+                 <h3 class="modal-title" class="flavor">Here are some Fantastic Flovars</h3>
+               </div>
+               <div class="modal-body">
+                 <div class="row">
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Amaretto</li>
+                       <li>Cotton Candy</li>
+                       <li>Chocolate Layer Cake</li>
+                       <li>Mint</li>
+                       <li>Red Velvet Cake</li>
+                       <li>Cake Batter</li>
+                       <li>Sweet Cream</li>
+                     </ul>
+                   </div>
+
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Baileys</li>
+                       <li>Cheesecake</li>
+                       <li>Chocolate Peanut Butter</li>
+                       <li>French Vanilla</li>
+                       <li>Orange Dreamsicle</li>
+                       <li>Strawberry</li>
+                       <li>White Chocolate</li>
+                     </ul>
+                   </div>
+
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Banana</li>
+                       <li>Chocolate</li>
+                       <li>Coconut</li>
+                       <li>Macademia</li>
+                       <li>Pistachio</li>
+                       <li>Strawberry Cheesecake</li>
+                       <li>White Peppermint</li>
+                     </ul>
+                   </div>
+
+                   <div class="col-md-3">
+                     <ul>
+                       <li>Raspberry</li>
+                       <li>Coffee</li>
+                       <li>Blueberry Pomegranate</li>
+                       <li>Chocolate Hazelnut</li>
+                       <li>Mango</li>
+                       <li>Strawberry Mango Banana</li>
+                     </ul>
+                   </div>
+                 </div>
+
+             <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+             </div>
+             </div>
+            </div>
+           </div>
+         </div>
+
+         <button type="button" class=" button btn-pink" id="top1"><a href="#toppings" data-toggle="modal" data-target="#toppings">TOPPINGS</button></a>
+         <div id="toppings" class="modal fade" role="dialog">
+           <div class="modal-dialog">
+
+           <div class="modal-content">
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h3 class="modal-title" class="toppings">Here are some Fantastic Toppings</h3>
+             </div>
+             <div class="modal-body"> <div class="row">
+                <div class="col-md-3">
+                  <ul>
+                    <li>Amaretto</li>
+                    <li>Cotton Candy</li>
+                    <li>Chocolate Layer Cake</li>
+                    <li>Mint</li>
+                    <li>Red Velvet Cake</li>
+                    <li>Cake Batter</li>
+                    <li>Sweet Cream</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Baileys</li>
+                    <li>Cheesecake</li>
+                    <li>Chocolate Peanut Butter</li>
+                    <li>French Vanilla</li>
+                    <li>Orange Dreamsicle</li>
+                    <li>Strawberry</li>
+                    <li>White Chocolate</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Banana</li>
+                    <li>Chocolate</li>
+                    <li>Coconut</li>
+                    <li>Macademia</li>
+                    <li>Pistachio</li>
+                    <li>Strawberry Cheesecake</li>
+                    <li>White Peppermint</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Raspberry</li>
+                    <li>Coffee</li>
+                    <li>Blueberry Pomegranate</li>
+                    <li>Chocolate Hazelnut</li>
+                    <li>Mango</li>
+                    <li>Strawberry Mango Banana</li>
+                  </ul>
+                </div>
+              </div>
+
+
+
+           <div class="modal-footer">
+             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+           </div>
+           </div>
+          </div>
+         </div>
+       </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+
+    </div>
+  </div>
+
+</div>
+  <hr>
+<br>
+<div class="container-fluid1" id="footer">
+  <footer>
+    <div class="row">
+      <div class="col-md-3">
+        <h3>ADDRESS</h3>
+        <p>Moringa School</p>
+        <p>Ngong Lane, Nairobi</p>
+
+      </div>
+      <div class="col-md-3">
+        <h3>CONTACT</h3>
+          <p>+254-791-084-364</p>
+          <p>Email: lcndinda@gmail.com</p>
+          <p>+254-791-084-364</p>
+          <p>Email: lcndinda@gmail.com</p>
+      </div>
+      <div class="col-md-3">
+        <h3>HOURS</h3>
+        <p>Weekday: 8:30am - 6:00pm</p>
+        <p>Weekend: 9:00am - 1:00pm</p>
+
+      </div>
+      <div class="col-md-3">
+        <h3>FEEDBACK</h3>
+        <form id="feedbacks">
+          <div class="form-group">
+            <label for="name">YOUR FULL NAMES</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="form-group">
+            <label for="coments">Leave Us a Feedback</label>
+            <textarea class="form-control" rows="3" placeholder="Leave us a Comment"></textarea>
+          </div>
+          <button type="submit" class="button btn-submit">SUBMIT</button>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+     <span class="copy"> &copy;by ice-cream. Proudly created by ice2018</span>
+      </div>
+      <div class="footer-icon">
+        <div class="col-md-3">
+          <a href="#"><i class="fa fa-facebook-square"></i></a>
+          <a href="#"><i class="fa fa-twitter-square"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="	fa fa-pinterest-square"></i></a>
+        </div>
+      </div>
+      <div class="col-md-3">
+      </div>
+    </div>
+  </footer>
+</div>
+
+    </div>
   </body>
 </html>

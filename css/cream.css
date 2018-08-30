@@ -1,43 +1,91 @@
-.jumbotron{
-  font-weight: bold;
-  background-repeat: repeat;
-  text-align: center;
-  color: #2C3E50;
-  background-image: url(../img/last1.jpeg);
-
-}
-.sp1{
-  color:  ##1C2833;
-}
 .head{
   color: #5499C7;
 }
-.sp2{
-  color:  #1C2833;
-}
-
-.sp3{
-  color: #1C2833;
-}
 body{
-  background-image: url(../img/ice1.jpeg);
+  margin:0;
+  font-weight: 600;
+}
+.container{
+  /* background-image: url(../img/back1.jpeg); */
   background-repeat: no-repeat;
-  margin: 40px;
+  background-size: cover;
+}
+.modal-content{
+  background-color: rgba(233,234,237, 0.9);
+  color: black;
 }
 
-.head1{
-  display: none;
+.container-fluid {
+  background-image: url(../img/last1.jpeg);
+  background-repeat:repeat;
+  background-size: cover;
+  height: 180px;
+  text-align: center;
 }
-.head2{
-  display: none;
-}.head3{
-  display: none;
+#title{
+  font-size: 90px;
 }
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+.affix + .container-fluid {
+      padding-top: 70px;
+  }
+
 #new{
   background-color:#FFC0CB;
   background-color: rgba(255,255,255,0.4);
   border-radius: 5%;
 }
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+hr{
+  color: #FFC0CB;
+}
+.btn-yellow {
+    background-color: white;
+    color: black;
+    border: 2px solid  #F9E79F;
+}
+
+.btn-yellow:hover {
+    background-color:#F9E79F;
+    color: black;
+}
+
+.btn-pink {
+    background-color: white;
+    color: black;
+    border: 2px solid  #FFB6C1	;
+}
+.btn-pink:hover {
+    background-color:#FFB6C1;
+    color: black;
+  }
+.btn-blue{
+  background-color: white;
+  color: black;
+  border: 2px solid  #B0E0E6	;
+}
+.btn-blue:hover {
+    background-color:#B0E0E6;
+    color: black;
+  }
 nav li a{
   color: black;
   font-size: 16px;
@@ -51,5 +99,29 @@ ul{
   font-size: 16px;
 }
 ul li:hover{
-  color: #00FA9A;
+  color: #FF69B4;
+}
+.top{
+  text-align: center;
+  font-weight: 400;
+}
+/* .img-fluid{
+  width: 120%;
+  height: 100%;
+} */
+.img{
+  padding-bottom: 10px;
+}
+footer h3{
+  color: #800000;
+  font-weight: bold;
+}
+footer p{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.footer-icon a i{
+  color: #800000;
+  padding: 3px;
 }
