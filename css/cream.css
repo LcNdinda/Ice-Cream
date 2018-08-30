@@ -3,7 +3,7 @@
 }
 body{
   margin:0;
-  font-weight: 600;
+  font-weight: 400;
 }
 .container{
   /* background-image: url(../img/back1.jpeg); */
@@ -105,23 +105,23 @@ ul li:hover{
   text-align: center;
   font-weight: 400;
 }
-/* .img-fluid{
-  width: 120%;
-  height: 100%;
-} */
+
 .img{
   padding-bottom: 10px;
 }
 footer h3{
-  color: #800000;
+  color: black;
   font-weight: bold;
 }
 footer p{
   color: black;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 20px;
 }
 .footer-icon a i{
   color: #800000;
   padding: 3px;
+}
+#footer{
+  background-color: #FFFFE0;
 }
