@@ -6,7 +6,6 @@ body{
   font-weight: 600;
 }
 .container{
-  /* background-image: url(../img/back1.jpeg); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -88,7 +87,8 @@ hr{
   }
 nav li a{
   color: black;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .panel-heading{
@@ -96,7 +96,7 @@ nav li a{
 }
 ul{
   list-style:none;
-  font-size: 16px;
+  font-size: 20px;
 }
 ul li:hover{
   color: #FF69B4;
