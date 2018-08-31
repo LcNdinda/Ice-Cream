@@ -1,54 +1,85 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/bootstrap.js"></script>
   <script src="js/ice.js"></script>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/ice.css">
   <link rel="stylesheet" href="js/ice.js">
   <title>ICE POPS</title>
+</head>
 
-  </head>
-
-  <body>
-    <div class="container fluid">
-      <div class="jumbotron">
-        <h1>ICE POPS</h1>
-      </div>
-      <h5>Pop ice brings a refreshing fun and provides a great everyday value</h5>
-
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <div class="container-fluid">
+    <h1 id="head">Ice Pops</h1>
+  </div>
+  <nav class="navbar navbar-default" data-spy="affix" data-offset-top="180">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="cream.html">Creamy</a></li>
+      <li><a href="ice.html">Ice-pops</a></li>
+      <li><a href="yogurt.html">Frozen Yoghurt</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">About<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#" data-toggle="modal" data-target="#defination">Defination</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#history">History</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#manufacture">How it's made</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#location">Where to buy</a></li>
+        </ul>
+        <li>
+    </ul>
+  </nav>
+  <div class="container">
+    <div id="defination" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title">Defination</h3>
           </div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Ice Pops</a></li>
-            <li><a href="#">Ice Cream</a></li>
-            <li><a href="#">Frozen Youghurt</a></li>
-          </ul>
-        </div>
-      </nav>
+          <div class="modal-body">
+            <p>A snack made of frozen juice on a stick; an ice lolly or popsicle</p>
 
-      <div class="col-md-3">
-        <div class="well">
-          <h4> <span class="new"> HISTORY OF ICE POPS</span>  </h4>
-
-          <div class="old">
-            <p>In 1905, eleven-year-old Frank Epperson left a cup filled with powdered soda, water,
-               and a stirring stick on his San Francisco porch. That night, low temperatures caused the mixture to freeze — and a
-               summertime staple was born. Today, two billion
-               Popsicles are sold every year.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
-      <div class="col-md-3">
-        <div class="well">
-          <h4> <span class="ice">HOW IT'S MADE</span></h4>
-          <div class="cream">
+    </div>
+
+    <div id="history" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title">HISTORY OF ICE POPS</h3>
+          </div>
+          <div class="modal-body">
+            <p>In 1905, eleven-year-old Frank Epperson left a cup filled with powdered soda, water, and a stirring stick on his
+              San Francisco porch. That night, low temperatures caused the mixture to freeze — and a
+              summertime staple was born. Today, two
+              billion Popsicles are sold every year.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="manufacture" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title">HOW IT'S MADE</h3>
+          </div>
+          <div class="modal-body">
             <ul>
               <li>Cut off the tops of the strawberries.</li>
               <li>Pour the cut strawberries into a blender.</li>
@@ -58,39 +89,359 @@
               <li>Freeze molds for an hour or until frozen.</li>
             </ul>
           </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
       </div>
+    </div>
 
-      <div class="col-md-3">
-        <div class="well">
-          <h4> <span class="frozen">FLAVOURS</span></h4>
-          <div class="youghurt">
+    <div id="location" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title">Where to buy</h3>
+          </div>
+          <div class="modal-body">
+          </div>
             <ul>
-              <li>Lemon lime(green)</li>
-              <li>Grape(purple)</li>
-              <li>Tropical Punch(pink)</li>
-              <li>Orange(orange)</li>
-              <li>Berry Punch(blue)</li>
-              <li>Punch(pink)</li>
+              <li>Maxine's supermarket</li>
+              <li>Skynest supermarket</li>
+              <li>Modern supermarket</li>
+              <li>Strawberry supermarket</li>
             </ul>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="tubs" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="tubs1" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title">TUBS</h3>
+          </div>
+          <div class="modal-body">
+            <div class="panel-heading">
+              <h1><span class="tubs1"> Here are some of the Tubs</span></h1>
+            </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <ul>
+                    <li>Lemon lime</li>
+                    <li>Grape(purple)</li>
+                    <li>Tropical(punch pink)</li>
+                    <li>Orange(orange)</li>
+                    <li>Berry(blue)</li>
+                    <li>Punch(red)</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Peach</li>
+                    <li>Banana</li>
+                    <li>Lemon lime</li>
+                    <li>Cherry</li>
+                    <li>Green apple</li>
+                    <li>Strawberry</li>
+                    <li>Watermelon</li>
+                    <li>Mango</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Berry punch</li>
+                    <li>Watermelon</li>
+                    <li>Tropical</li>
+                    <li>Citrus</li>
+                    <li>Banana</li>
+                  </ul>
+                </div>
+          </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
-      <div class="col-md-3">
-        <div class="well">
-          <h4> <span class="maxine">Where to buy</span></h4>
-          <div class="skynest">
-            <ul>
-              <li>Maxine's best pops</li>
-              <li>Skynest sweet ice pops</li>
-              <li>Modern ice pops</li>
-              <li>Strawberry pops</li>
-            </ul>
+    </div>
+
+    <div id="cups" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title">CUPS</h3>
+          </div>
+          <div class="modal-body">
+            <div class="panel-heading">
+              <h1><span class=""> Here are some of the cups</span></h1>
+            </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <ul>
+                    <li>Lemon lime</li>
+                    <li>Grape(purple)</li>
+                    <li>Tropical(punch pink)</li>
+                    <li>Orange(orange)</li>
+                    <li>Berry(blue)</li>
+                    <li>Punch(red)</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Peach</li>
+                    <li>Banana</li>
+                    <li>Lemon lime</li>
+                    <li>Cherry</li>
+                    <li>Green apple</li>
+                    <li>Strawberry</li>
+                    <li>Watermelon</li>
+                    <li>Mango</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Berry punch</li>
+                    <li>Watermelon</li>
+                    <li>Tropical</li>
+                    <li>Citrus</li>
+                    <li>Banana</li>
+                  </ul>
+                </div>
+          </div>
+          </div>
+
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
         </div>
+      </div>
+    </div>
+    <div id="cones" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="cones" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title">cones and sticks</h3>
+          </div>
+          <div class="modal-body">
+            <p>A snack made of frozen juice on a stick; an ice lolly or popsicle</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="planetToppings" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title">Flavours</h3>
+          </div>
+          <div class="modal-body">
+            <div class="panel-heading">
+              <h1><span class="flavor"> Here are some of the flavours</span></h1>
+            </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <ul>
+                    <li>Lemon lime</li>
+                    <li>Grape(purple)</li>
+                    <li>Tropical(punch pink)</li>
+                    <li>Orange(orange)</li>
+                    <li>Berry(blue)</li>
+                    <li>Punch(red)</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Peach</li>
+                    <li>Banana</li>
+                    <li>Lemon lime</li>
+                    <li>Cherry</li>
+                    <li>Green apple</li>
+                    <li>Strawberry</li>
+                    <li>Watermelon</li>
+                    <li>Mango</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <ul>
+                    <li>Berry punch</li>
+                    <li>Watermelon</li>
+                    <li>Tropical</li>
+                    <li>Citrus</li>
+                    <li>Banana</li>
+                  </ul>
+                </div>
+          </div>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="planetFlavors" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title">A definition of Ice pops</h3>
+          </div>
+          <div class="modal-body">
+            <p>A snack made of frozen juice on a stick; an ice lolly or popsicle</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="findPlanet" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title">A definition of Ice pops</h3>
+          </div>
+          <div class="modal-body">
+            <p>A snack made of frozen juice on a stick; an ice lolly or popsicle</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<br>
+<br>
+<div class="gallery">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="images/cold-stone.jpeg"  width="550" height="350">
+      </div>
+  <div class="col-md-6">
+    <div class="text">
+      <h3>CREAMBELL</h3>
+      <br>
+       <p>Pop ice brings a refreshing fun to everyone and provides a great everyday value</p>
+
+       <button type="button" class=" button btn-yellow" data-toggle="modal" data-target="#tubs">TUBS</button>
+       <button type="button" class=" button btn-pink" data-toggle="modal" data-target="#cups">CUPS</button>
+       <button type="button" class=" button btn-blue" data-toggle="modal" data-target="#cones">CONES AND STICKS</button>
+    </div>
+  </div>
+
+  </div>
+
+</div>
+<br>
+<br>
+<div class="gallery">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="images/creambell.jpeg" width="550" height="350">
+      </div>
+  <div class="col-md-6">
+    <div class="text">
+      <h3>DAIRY LAND</h3>
+      <br>
+     <p>Pop ice brings a refreshing fun to everyone and provides a great everyday value</p>
+
+       <button type="button" class=" button btn-yellow" data-toggle="modal" data-target="#yogFlavors">TUBS</button>
+       <button type="button" class=" button btn-pink" data-toggle="modal" data-target="#yogToppings">CUPS</button>
+       <button type="button" class=" button btn-blue" data-toggle="modal" data-target="#findYog">CONES AND STICKS</button>
+    </div>
+  </div>
+
+  </div>
+
+</div>
+</div>
+<br>
+<hr class="featurette-divider"></hr>
+<div class="container" id="footer">
+  <footer>
+    <div class="row">
+      <div class="col-md-3">
+        <h3>ADDRESS</h3>
+        <p>Moringa School</p>
+        <p>Ngong Lane, Nairobi</p>
+
+      </div>
+      <div class="col-md-3">
+        <h3>CONTACT</h3>
+          <p>+254-791-084-364</p>
+          <p>Email: lcndinda@gmail.com</p>
+          <p>+254-791-084-364</p>
+          <p>Email: lcndinda@gmail.com</p>
+      </div>
+      <div class="col-md-3">
+        <h3>HOURS</h3>
+        <p>Weekday: 8:30am - 6:00pm</p>
+        <p>Weekend: 9:00am - 1:00pm</p>
+
+      </div>
+      <div class="col-md-3">
+        <h3>FEEDBACK</h3>
+        <form id="feedbacks">
+          <div class="form-group">
+            <label for="name">YOUR FULL NAMES</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="form-group">
+            <label for="coments">Leave Us a Feedback</label>
+            <textarea class="form-control" rows="3" placeholder="Leave us a Comment"></textarea>
+          </div>
+
+          <button type="submit" class="button btn-submit">SUBMIT</button>
+
+        </form>
       </div>
 
     </div>
-  </body>
 
-  </html>
+    <div class="row">
+      <div class="col-md-6">
+     <span class="copy"> &copy;by ice-cream. Proudly created by ice2018</span>
+
+      </div>
+
+      <div class="footer-icon">
+        <div class="col-md-3">
+          <a href="#"><i class="fa fa-facebook-square"></i></a>
+          <a href="#"><i class="fa fa-twitter-square"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="	fa fa-pinterest-square"></i></a>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+
+      </div>
+
+    </div>
+
+  </footer>
+
+</div>
+</body>
+
+</html>
