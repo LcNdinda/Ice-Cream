@@ -54,7 +54,7 @@ body{
     cursor: pointer;
 }
 hr{
-  color: #FFC0CB;
+  border:  2px solid #FFC0CB;
 }
 .btn-yellow {
     background-color: white;
@@ -115,13 +115,16 @@ footer h3{
 }
 footer p{
   color: black;
-  /* font-weight: bold; */
   font-size: 20px;
 }
 .footer-icon a i{
   color: #800000;
   padding: 3px;
+  font-size: 36px;
 }
 #footer{
   background-color: #FFFFE0;
+}
+.foot{
+    background-color: #FFFFE0;
 }
