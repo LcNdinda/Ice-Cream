@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  /* background-image: url("../images/walpaper.png"); */
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container-fluid{
+  background-image: url(../images/walpaper.png);
+
+}
+.modal-content{
+  background-color: rgba(233,234,237, 0.9);
+  color: Black;
+  font-size: 40px;
+}
+.container-fluid {
+  height: 180px;
+}
+#head{
+  font-size: 80px;
+  font-weight: 900;
+  text-align: center;
+}
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+.affix + .container-fluid {
+      padding-top: 70px;
+  }
+h1 {
+  text-align: center;
+  font-size: 30px
+}
+
+nav li a{
+  color: Black;
+  font-size: 20px;
+}
+
+.panel-heading{
+  text-align: center;
+}
+ul{
+  list-style:none;
+  font-size: 20px;
+}
+ul li:hover{
+  color: Blue;
+  font-size: 23px
+}
+.btn-yellow {
+    background-color: white;
+    color: black;
+    border: 2px solid  #F9E79F;
+}
+
+.btn-yellow:hover {
+    background-color:#F9E79F;
+    color: black;
+}
+
+.btn-pink {
+    background-color: white;
+    color: black;
+    border: 2px solid  #FFB6C1	;
+}
+.btn-pink:hover {
+    background-color:#FFB6C1;
+    color: black;
+  }
+.btn-blue{
+  background-color: white;
+  color: black;
+  border: 2px solid  #B0E0E6	;
+}
+.btn-blue:hover {
+    background-color:#B0E0E6;
+    color: black;
+  }
+.button {
+   Green */
+    border: Blue;
+    color: Black;
+    padding: 16px 32px; */
+    text-align: center;
+    text-decoration: none;
+
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+  }
+  #footer {
+    background-image: url(../images/walpaper.png);
+    background-size: cover;
+  }

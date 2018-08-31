@@ -22,6 +22,10 @@
   font-size: 35px;
   font-family:serif;
 }
+
+.navbar{
+  margin-top: 3%;
+}
 .navbar-brand{
   color: black;
   font-size: 25px;
@@ -31,6 +35,11 @@
 }
 nav li a{
   color: black;
+  font-size: 20px;
+  font
+}
+nav li a:hover{
+  background-color: #F9E79F;
 }
 nav li a:hover{
   background-color: #F9E79F;
@@ -205,4 +214,37 @@ footer p{
 .footer-icon a i{
   color: #800000;
   padding: 3px;
+}
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
 }
